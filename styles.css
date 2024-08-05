@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('images.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    font-size: 2.5em; /* Adjust the size as needed */
+    font-weight: bold; /* Makes the text bold */
+    background: linear-gradient(45deg, #ff6b6b, #f06595, #a8c0ff, #3faffa); /* Gradient colors */
+    -webkit-background-clip: text; /* Clips the background to the text (Safari) */
+    -webkit-text-fill-color: transparent; /* Makes the text color transparent (Safari) */
+    background-clip: text; /* Clips the background to the text (modern browsers) */
+    color: transparent; /* Makes the text color transparent (fallback) */
+    text-align: center; /* Center-aligns the text */
+    margin: 20px 0; /* Adds some margin around the heading */
+}
+
+
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+#qrcode {
+    width: 200px;  
+    height: 200px;
+    margin-left: 550px;
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid #333; 
+    border-radius: 10px;
+    padding: 10px; 
+    background-color: #fff;
+}
